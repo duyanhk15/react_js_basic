@@ -1,0 +1,39 @@
+[
+   
+    {
+        "id": 1,
+        "name": "Huỳnh Duy Anh",
+        "tel":"0934154061",
+        "permission": "1"
+    },
+    {
+        "id": 2,
+        "name": "Nguyễn Thị Mỹ Hòa",
+        "tel":"090900002",
+        "permission": "1"
+    },
+    {
+        "id": 3,
+        "name": "Vũ Hồng Thiên Nga",
+        "tel":"090900003",
+        "permission": "3"
+    },
+    {
+        "id": 4,
+        "name": "Võ Mai Bảo Ngọc",
+        "tel":"090900004",
+        "permission": "2"
+    },
+    {
+        "id": 5,
+        "name": "Trương Ngọc Diệp",
+        "tel":"090900005",
+        "permission": "3"
+    },
+    {
+        "id": 6,
+        "name": "Hoàng Châu Ánh Mai",
+        "tel":"090900006",
+        "permission": "2"
+    }
+]

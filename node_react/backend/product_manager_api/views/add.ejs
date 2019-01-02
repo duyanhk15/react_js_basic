@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-8 mx-auto">
+
+                <form action="/addproducts" method="post">
+                <div class="form-group">
+                  <label for="product_name">Tên sản phẩm</label>
+                  <input type="text" class="form-control" name="product_name" id="product_name" aria-describedby="name_text" placeholder="nhập tên sản phẩm">
+                  <small id="name_text" class="form-text text-muted">input name of product</small>
+                </div>
+
+                <div class="form-group">
+                  <label for="product_price">Giá sản phẩm</label>
+                  <input type="text" class="form-control" name="product_price" id="product_price" aria-describedby="price" placeholder="nhập giá sản phẩm">
+                  <small id="price" class="form-text text-muted">input price of product</small>
+                </div>
+
+                <div class="form-group">
+                  <label for="image">Đường link ảnh</label>
+                  <input type="text" class="form-control" name="image" id="image" aria-describedby="image_link" placeholder="nhập link ảnh sản phẩm">
+                  <small id="image_link" class="form-text text-muted">input link of product's image</small>
+                </div>
+
+                <button type="submit" class="btn btn-info">Thêm mới</button>
+                </form>
+
+
+            </div>
+        </div>        
+    </div>
+
+
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
