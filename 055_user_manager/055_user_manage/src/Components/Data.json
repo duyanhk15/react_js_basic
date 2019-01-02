@@ -1,0 +1,35 @@
+[
+    {
+        "id":1,
+        "name": "Huỳnh Duy Anh",
+        "tel": "0934154061",
+        "permission": 1
+    },
+    {
+        "id":2,
+        "name": "Nguyễn Thị Mỹ Hoà",
+        "tel": "0909090909",
+        "permission": 1
+    },
+    {
+        "id":3,
+        "name": "Nguyễn Công Phượng",
+        "tel": "0901547845",
+        "permission": 3
+        
+    },
+    {
+        "id":4,
+        "name": "Bùi Tiến Dũng",
+        "tel": "0909360002",
+        "permission": 2
+        
+    },
+    {
+        "id":5,
+        "name": "Chinh Vựa Muối",
+        "tel": "0900224455",
+        "permission": 3
+        
+    }
+]
